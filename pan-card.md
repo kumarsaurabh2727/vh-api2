@@ -29,22 +29,3 @@ This API receives the request in the form of **URL string** or **base64** string
 
 On the basis of configured keyword, the **PAN_card_ocr** API validates the PAN card document. After the PAN card document is successfully validated, it returns the details of the PAN card holder.
 
-### Request Parameters
-
-|Name of Parameter|Description|
-|-------|--------|
-|**Front**|This JSON object contains the input data that the **PAN_card_ocr** API receives from the request.<br><br>In the input data, this object stores the type of input string and the input string that contains the front page image of the PAN card. 
-|**Back** (Optional)|This JSON type object also contains the input data that the **PAN_card_ocr** API receives from the request.<br><br>In the input data, this object stores the type of input string and the input string that contains the back page image of the PAN card.| 
-|**Source_type**|This parameter stores any of two following values:<br><br>**url_image**This value specifies that the PAN_card_ocr API receives the PAN card image in the URL string<br><br>**Base64_image**This value specifies that the PAN_card_ocr API receives the PAN card image in the base64 string.|
-|**Source**|This parameter either stores **URL string** or **base64 string**. These string types contain the file name of PAN card’s image from where the API captures the details of PAN card.| 
-|**Document_type**|For PAN card, this parameter stores a constant value: PAN. This value specifies that the request contains the image of the PAN card.|
-
-### Response Parameters
-
-|Name of Parameter|Description|
-|-----|-------|
-|**RESPONSE**|This parameter stores the status of the request as follows:<br><br>**I:**This value specifies that the API successfully returns the details of the PAN card.<br><br>**E**This value specifies that the API fails to return the details of the PAN card.|
-|**RESPONSE_MSG**|This parameter stores any of the following response messages:<br><br>**Success**This value specifies that the API successfully returns the details of the PAN card.<br><br>**Error Message**The RESPONSE_MSG stores the error message if the API fails to return the details of the PAN card.|
-|**DATA**|This JSON object stores the complete information of PAN card holder in the form of key/value pair. The PAN card information includes:<br><br>Name of PAN card holderFather’s nameDate of birth of PAN card holderDocument noPAN number, etc.|
-|**Text_front**|This is also a JSON object that stores the information of PAN card’s front page. This information includes some constant value, date of birth of PAN card holder, PAN card number, etc.|
-|**Text_back** (Optional)|This is a JSON object that stores the information of PAN card’s back page. The **PAN_card_ocr** API returns the details of the PAN card’s back page if it receives the image of the PAN card’s back page in the **Back** parameter of the request.|
