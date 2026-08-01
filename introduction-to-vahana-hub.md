@@ -13,5 +13,5 @@ This document is written for the prospective clients of Decimal Technologies. Th
 |**CIN**|Corporate Identity Number|
 |**GST**|Good and Service Tax|
 |**PAN**|Permanent Account Number|
-|**JSON**|Java Script Object| Notation
+|**JSON**|Java Script Object|
 |**OCR**|Optical Character Reader|
