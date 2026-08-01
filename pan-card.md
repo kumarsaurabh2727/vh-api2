@@ -30,6 +30,7 @@ This API receives the request in the form of **URL string** or **base64** string
 On the basis of configured keyword, the **PAN_card_ocr** API validates the PAN card document. After the PAN card document is successfully validated, it returns the details of the PAN card holder.
 
 ### Request Parameters
+
 |Name of Parameter|Description|
 |-------|--------|
 |**Front**|This JSON object contains the input data that the **PAN_card_ocr** API receives from the request.<br><br>In the input data, this object stores the type of input string and the input string that contains the front page image of the PAN card. 
@@ -39,6 +40,7 @@ On the basis of configured keyword, the **PAN_card_ocr** API validates the PAN c
 |**Document_type**|For PAN card, this parameter stores a constant value: PAN. This value specifies that the request contains the image of the PAN card.|
 
 ### Response Parameters
+
 |Name of Parameter|Description|
 |-----|-------|
 |**RESPONSE**|This parameter stores the status of the request as follows:<br><br>**I:**This value specifies that the API successfully returns the details of the PAN card.<br><br>**E**This value specifies that the API fails to return the details of the PAN card.|
