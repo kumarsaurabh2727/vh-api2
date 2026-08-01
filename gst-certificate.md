@@ -31,11 +31,11 @@ Based on the details of the GST certificate that the OCR service captures, the *
 ### Request Parameters
 |Name of Parameter|Description|
 |-----|-----|
-|**source_type**|This parameter stores any of the following values:<br/><br/><ui><li>**url_image:**</li></ui><br/>This value specifies that the request contains the URL string as an input value.<br/><br/><ui><li>**Base64_image:**</li></ui><br/>This value specifies that the request contains the base64 string as an input value.|
+|**source_type**|This parameter stores any of the following values:<br><br><ul><li>**url_image:**</li></ul><br>This value specifies that the request contains the URL string as an input value.<br><br><ul><li>**Base64_image:**</li></ul><br>This value specifies that the request contains the base64 string as an input value.|
 |**Source**|This parameter stores the URL string or based 64 string that contains the image file or the PDF file of the GST certificate.|
 
 ### Response Parameters
 |Name of Parameter|Description|
 |-----|-----|
-|**RESPONSE**|This parameter stores the status of the request as follows:<br/><br/><ui><li>**I:**</li></ui><br/>This value specifies that the API successfully returns the details of the GST certificate.<br/><br/><ui><li>**E:**</li></ui><br/>This value specifies that the API fails to return the details of the GST certificate.|
-|**RESPONSE_MSG**|This parameter stores any of the following response messages:<br/><br/><ui><li>**Success**</li></ui><br/>This value specifies that the API successfully returns the details of the GST certificate.<br/><br/><ui><li>**Error Message**</li></ui><br/>The RESPONSE_MSG stores the error message if the API fails to return the details of the GST certificate.|
+|**RESPONSE**|This parameter stores the status of the request as follows:<br><br><ul><li>**I:**</li></ul><br>This value specifies that the API successfully returns the details of the GST certificate.<br><br><ul><li>**E:**</li></ul><br>This value specifies that the API fails to return the details of the GST certificate.|
+|**RESPONSE_MSG**|This parameter stores any of the following response messages:<br><br><ul><li>**Success**</li></ul><br>This value specifies that the API successfully returns the details of the GST certificate.<br><br><ul><li>**Error Message**</li></ul><br>The RESPONSE_MSG stores the error message if the API fails to return the details of the GST certificate.|
