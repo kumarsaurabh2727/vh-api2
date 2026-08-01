@@ -31,7 +31,7 @@ Based on the details of the GST certificate that the OCR service captures, the *
 ### Request Parameters
 |Name of Parameter|Description|
 |-------------|---------------|
-|**source_type**|This parameter stores any of the following values:<br><br>**url_image:**<br>This value specifies that the request contains the URL string as an input value.<br><br>**Base64_image:**<br>This value specifies that the request contains the base64 string as an input value.|
+|**source_type**|This parameter stores any of the following values:<br><br>**url_image:**<br>This value specifies that the request contains the URL string as an input value<br><br>**Base64_image:**<br>This value specifies that the request contains the base64 string as an input value.|
 |**Source**|This parameter stores the URL string or based 64 string that contains the image file or the PDF file of the GST certificate.|
 
 ### Response Parameters
