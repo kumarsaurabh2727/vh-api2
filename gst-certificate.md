@@ -33,6 +33,14 @@ Based on the details of the GST certificate that the OCR service captures, the *
 |Name of Parameter|Description|
 |------|------|
 |**source_type**|This parameter stores any of the following values:<br>&bull;**url_image:**<br>This value specifies that the request contains the URL string as an input value.<br><br>&bull;**Base64_image:**<br>This value specifies that the request contains the base64 string as an input value.|
-|**Source**|This parameter stores the URL string or based 64 string that contains the image file or the PDF file of the GST certificate.
+|**Source**|This parameter stores the URL string or Based64 string that contains the image file or the PDF file of the GST certificate.
 
+### Response Parameters
 
+|Name of Parameter|Description|
+|------|------|
+|**RESPONSE**|This parameter stores the status of the request as follows:<br>&bull;**I:**<br>This value specifies that the API successfully returns the details of the GST certificate.<br><br>&bull;**E:**<br>This value specifies that the API fails to return the details of the GST certificate.|
+|**RESPONSE_MSG**|This parameter stores any of the following response messages:<br>&bull;**Success:**<br>This value specifies that the API successfully returns the details of the GST certificate.<br><br>&bull;**Error Message:**<br>The **RESPONSE_MSG** parameter stores the error message if the API fails to return the details of the GST certificate.|
+|**DATA**| This parameter, which is a JSON type object, stores the complete details of GST certificate such as address, date of liability, date of issue of certificate, GST number, legal name, trade name, validity of the certificate, etc.|
+
+Next API is: [Pan Card](pan-card.md)
