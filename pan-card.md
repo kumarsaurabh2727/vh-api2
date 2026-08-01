@@ -29,3 +29,14 @@ This API receives the request in the form of **URL string** or **base64** string
 
 On the basis of configured keyword, the **PAN_card_ocr** API validates the PAN card document. After the PAN card document is successfully validated, it returns the details of the PAN card holder.
 
+### Request Parameter
+
+|Name of Parameter|Description|
+|-----|------|
+|**Front**|This JSON object contains the input data that the **PAN_card_ocr** API receives from the request. In the input data, this object stores the type of input string and the input string that contains the front page image of the PAN card.| 
+|**Back** (Optional)|This JSON type object also contains the input data that the PAN_card_ocr API receives from the request. In the input data, this object stores the type of input string and the input string that contains the back page image of the PAN card.| 
+|**Source_type**|This parameter stores any of two following values:<br>&bull;**url_image:**<br>This value specifies that the PAN_card_ocr API receives the PAN card image in the URL string.<br><br>&bull;**Base64_image:**<br>This value specifies that the PAN_card_ocr API receives the PAN card image in the base64 string.|
+|**Source**|This parameter either stores URL string or Base64 string. These string types contain the file name of PAN card’s image from where the API captures the details of PAN card.| 
+|**Document_type**|For a PAN card, this parameter stores a constant value, **PAN**. This value specifies that the request contains the image of the PAN card.|
+
+To see the details of GST Certificate API, [click here](gst-certificate.md).
