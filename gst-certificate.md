@@ -30,12 +30,12 @@ Based on the details of the GST certificate that the OCR service captures, the *
 
 ### Request Parameters
 |Name of Parameter|Description|
-|-----|-----|
+|-------------|---------------|
 |**source_type**|This parameter stores any of the following values:<br><br>**url_image:**<br>This value specifies that the request contains the URL string as an input value.<br><br>**Base64_image:**<br>This value specifies that the request contains the base64 string as an input value.|
 |**Source**|This parameter stores the URL string or based 64 string that contains the image file or the PDF file of the GST certificate.|
 
 ### Response Parameters
 |Name of Parameter|Description|
-|-----|-----|
+|---------------|-------------|
 |**RESPONSE**|This parameter stores the status of the request as follows:<br><br>**I:**<br>This value specifies that the API successfully returns the details of the GST certificate.<br><br>**E:**<br>This value specifies that the API fails to return the details of the GST certificate.|
 |**RESPONSE_MSG**|This parameter stores any of the following response messages:<br><br>**Success**<br>This value specifies that the API successfully returns the details of the GST certificate.<br><br>**Error Message**<br>The RESPONSE_MSG stores the error message if the API fails to return the details of the GST certificate.|

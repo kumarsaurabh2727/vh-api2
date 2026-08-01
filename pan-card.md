@@ -33,7 +33,7 @@ On the basis of configured keyword, the **PAN_card_ocr** API validates the PAN c
 |Name of Parameter|Description|
 |-------|--------|
 |**Front**|This JSON object contains the input data that the **PAN_card_ocr** API receives from the request.<br><br>In the input data, this object stores the type of input string and the input string that contains the front page image of the PAN card. 
-|**Back** (Optional)|This JSON type object also contains the input data that the **PAN_card_ocr** API receives from the request.<br><br>In the input data, this object stores the type of input string and the input string that contains the back page image of the PAN card. 
+|**Back** (Optional)|This JSON type object also contains the input data that the **PAN_card_ocr** API receives from the request.<br><br>In the input data, this object stores the type of input string and the input string that contains the back page image of the PAN card.| 
 |**Source_type**|This parameter stores any of two following values:<br><br>**url_image**This value specifies that the PAN_card_ocr API receives the PAN card image in the URL string<br><br>**Base64_image**This value specifies that the PAN_card_ocr API receives the PAN card image in the base64 string.|
 |**Source**|This parameter either stores **URL string** or **base64 string**. These string types contain the file name of PAN card’s image from where the API captures the details of PAN card.| 
 |**Document_type**|For PAN card, this parameter stores a constant value: PAN. This value specifies that the request contains the image of the PAN card.|
