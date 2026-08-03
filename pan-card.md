@@ -39,4 +39,15 @@ On the basis of configured keyword, the **PAN_card_ocr** API validates the PAN c
 |**Source**|This parameter either stores URL string or Base64 string. These string types contain the file name of PAN card’s image from where the API captures the details of PAN card.| 
 |**Document_type**|For a PAN card, this parameter stores a constant value, **PAN**. This value specifies that the request contains the image of the PAN card.|
 
+### Response Parameters
+
+|Name of Parameter|Description|
+|--------|------------|
+|**RESPONSE**|This parameter stores the status of the request as follows:<br>&bull;**I:**<br>This value specifies that the API successfully returns the details of the PAN card.<br><br>&bull;**E:**<br>This value specifies that the API fails to return the details of the PAN card.|
+|**RESPONSE_MSG**|	This parameter stores any of the following response messages:<br><br>&bull;**Success:**<br>This value specifies that the API successfully returns the details of the PAN card.<br><br>&bull;**Error Message:**<br>The **RESPONSE_MSG** parameter stores the error message if the API fails to return the details of the PAN card.|
+|**DATA**|This JSON object stores the complete information of PAN card holder in the form of key/value pair. The PAN card information includes:<br>&bull;**Name of PAN card holder**<br>&bull;**Father’s name**<br>&bull;**Date of birth of PAN card holder**<br>&bull;**Document no**<br>&bull;**PAN number**, etc.
+|**Text_front**|This is also a JSON object that stores the information of PAN card’s front page. This information includes some constant value, date of birth of PAN card holder, PAN card number, etc.
+|**Text_back** (Optional)|This is a JSON object that stores the information of PAN card’s back page. The **PAN_card_ocr** API returns the details of the PAN card’s back page if it receives the image of the PAN card’s back page in the Back parameter of the request.|
+
+
 To see the details of GST Certificate API, [click here](gst-certificate.md).
