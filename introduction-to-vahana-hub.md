@@ -17,6 +17,7 @@ This document is written for the prospective clients of Decimal Technologies. Th
 |**OCR**|Optical Character Reader|
 
 This document contains the following APIs:
-[GST Certificate](gst-certificate.md)<br>
+
+[GST Certificate](gst-certificate.md)
 
 [Pan Card](pan-card.md)
