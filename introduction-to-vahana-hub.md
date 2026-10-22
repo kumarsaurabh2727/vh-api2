@@ -18,6 +18,6 @@ This document is written for the prospective clients of Decimal Technologies. Th
 
 This document contains the following APIs:
 
-[GST Certificate](gst-certificate.md)
+* [GST Certificate](gst-certificate.md)
 
-[Pan Card](pan-card.md)
+* [Pan Card](pan-card.md)
