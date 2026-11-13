@@ -1,4 +1,3 @@
-# Introduction to Vahana Hub
 # Introduction to Vahana hub API(s)
 Vahana hub is an API(s) aggregator platform that hosts multiple RESTful API(s). The client application environment can consume these API(s) to automate its business operation. Written with light-weight algorithm and smart business rules, these API(s) provide improved orchestration leading to frictionless better user experience. 
 

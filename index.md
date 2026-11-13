@@ -5,6 +5,8 @@ This document contains the detailed information about different APIs deployed on
 # Table of Contents
 [Introduction to Vahana Hub Platform](introduction-to-vahana-hub.md)
 
+[CIN Certificate API](cin-certificate.md)
+
 [GST Certificate API](gst-certificate.md)
 
 [Pan Card API](pan-card.md)
